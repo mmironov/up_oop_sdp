@@ -7,9 +7,22 @@
 //
 
 #include <iostream>
+#include "arrays.h"
+#include "pointers.h"
+#include "aliases.h"
+#include "dynamic_memory.h"
+#include "templates.h"
+#include "recursion.h"
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+//    testArrays();
+//    testPointers();
+//    testAliases();
+//    testDynamicMemory();
+//    testTemplates();
+    testRecursion();
+    
     return 0;
 }

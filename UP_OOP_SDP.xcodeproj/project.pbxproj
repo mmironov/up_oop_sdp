@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F4252ED71BD92ED100FF0644 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4252ED61BD92ED100FF0644 /* main.cpp */; };
+		F4252EE21BD92F6400FF0644 /* arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4252EE01BD92F6400FF0644 /* arrays.cpp */; };
+		F4252EE51BD92F8E00FF0644 /* pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4252EE31BD92F8E00FF0644 /* pointers.cpp */; };
+		F4252EE81BD92FAD00FF0644 /* aliases.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4252EE61BD92FAD00FF0644 /* aliases.cpp */; };
+		F4252EEB1BD92FDC00FF0644 /* dynamic_memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4252EE91BD92FDC00FF0644 /* dynamic_memory.cpp */; };
+		F42A79A41BDA796500EB3F3A /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F42A79A21BDA796500EB3F3A /* student.cpp */; };
+		F436E4961BDFD97200FC7951 /* templates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F436E4941BDFD97200FC7951 /* templates.cpp */; };
+		F436E4991BDFD99000FC7951 /* recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F436E4971BDFD99000FC7951 /* recursion.cpp */; };
+		F436E49F1BDFF3E000FC7951 /* item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F436E49D1BDFF3E000FC7951 /* item.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,23 @@
 /* Begin PBXFileReference section */
 		F4252ED31BD92ED100FF0644 /* UP_OOP_SDP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UP_OOP_SDP; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4252ED61BD92ED100FF0644 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F4252EE01BD92F6400FF0644 /* arrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = arrays.cpp; sourceTree = "<group>"; };
+		F4252EE11BD92F6400FF0644 /* arrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arrays.h; sourceTree = "<group>"; };
+		F4252EE31BD92F8E00FF0644 /* pointers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pointers.cpp; sourceTree = "<group>"; };
+		F4252EE41BD92F8E00FF0644 /* pointers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointers.h; sourceTree = "<group>"; };
+		F4252EE61BD92FAD00FF0644 /* aliases.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aliases.cpp; sourceTree = "<group>"; };
+		F4252EE71BD92FAD00FF0644 /* aliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliases.h; sourceTree = "<group>"; };
+		F4252EE91BD92FDC00FF0644 /* dynamic_memory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dynamic_memory.cpp; sourceTree = "<group>"; };
+		F4252EEA1BD92FDC00FF0644 /* dynamic_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynamic_memory.h; sourceTree = "<group>"; };
+		F42A79A21BDA796500EB3F3A /* student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = "<group>"; };
+		F42A79A31BDA796500EB3F3A /* student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
+		F436E4941BDFD97200FC7951 /* templates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = templates.cpp; sourceTree = "<group>"; };
+		F436E4951BDFD97200FC7951 /* templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = templates.h; sourceTree = "<group>"; };
+		F436E4971BDFD99000FC7951 /* recursion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recursion.cpp; sourceTree = "<group>"; };
+		F436E4981BDFD99000FC7951 /* recursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recursion.h; sourceTree = "<group>"; };
+		F436E49B1BDFE90A00FC7951 /* box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
+		F436E49D1BDFF3E000FC7951 /* item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = item.cpp; sourceTree = "<group>"; };
+		F436E49E1BDFF3E000FC7951 /* item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = item.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,23 @@
 			isa = PBXGroup;
 			children = (
 				F4252ED61BD92ED100FF0644 /* main.cpp */,
+				F4252EE01BD92F6400FF0644 /* arrays.cpp */,
+				F4252EE11BD92F6400FF0644 /* arrays.h */,
+				F4252EE31BD92F8E00FF0644 /* pointers.cpp */,
+				F4252EE41BD92F8E00FF0644 /* pointers.h */,
+				F4252EE61BD92FAD00FF0644 /* aliases.cpp */,
+				F4252EE71BD92FAD00FF0644 /* aliases.h */,
+				F4252EE91BD92FDC00FF0644 /* dynamic_memory.cpp */,
+				F4252EEA1BD92FDC00FF0644 /* dynamic_memory.h */,
+				F42A79A21BDA796500EB3F3A /* student.cpp */,
+				F42A79A31BDA796500EB3F3A /* student.h */,
+				F436E4941BDFD97200FC7951 /* templates.cpp */,
+				F436E4951BDFD97200FC7951 /* templates.h */,
+				F436E4971BDFD99000FC7951 /* recursion.cpp */,
+				F436E4981BDFD99000FC7951 /* recursion.h */,
+				F436E49B1BDFE90A00FC7951 /* box.h */,
+				F436E49D1BDFF3E000FC7951 /* item.cpp */,
+				F436E49E1BDFF3E000FC7951 /* item.h */,
 			);
 			path = UP_OOP_SDP;
 			sourceTree = "<group>";
@@ -118,7 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F436E4991BDFD99000FC7951 /* recursion.cpp in Sources */,
+				F4252EE51BD92F8E00FF0644 /* pointers.cpp in Sources */,
+				F436E49F1BDFF3E000FC7951 /* item.cpp in Sources */,
+				F42A79A41BDA796500EB3F3A /* student.cpp in Sources */,
+				F436E4961BDFD97200FC7951 /* templates.cpp in Sources */,
 				F4252ED71BD92ED100FF0644 /* main.cpp in Sources */,
+				F4252EE81BD92FAD00FF0644 /* aliases.cpp in Sources */,
+				F4252EE21BD92F6400FF0644 /* arrays.cpp in Sources */,
+				F4252EEB1BD92FDC00FF0644 /* dynamic_memory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +285,7 @@
 				F4252EDC1BD92ED100FF0644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
