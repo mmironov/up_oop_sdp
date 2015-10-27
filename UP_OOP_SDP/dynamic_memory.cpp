@@ -76,6 +76,7 @@ void testDynamicMemory()
     dynArray[0] = new Student;
     dynArray[1] = new Student;
     
+    delete dynArray[2];
     delete dynArray[1];
     delete dynArray[0];
     
